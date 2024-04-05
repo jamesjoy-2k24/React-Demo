@@ -17,14 +17,15 @@ export default function Form() {
           Created Date
           <input type="date" id="date" placeholder="Created Date" />
         </label>
-        <label>Content
+        <label>
+          Content
           <input type="text" id="content" placeholder="Enter The Content" />
         </label>
         <label>
           Deadline
           <input type="date" id="d-date" placeholder="Enter The Deadline" />
-              </label>
-              <button type="submit">Submit</button>
+        </label>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );

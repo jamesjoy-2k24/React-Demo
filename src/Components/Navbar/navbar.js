@@ -9,6 +9,7 @@ export default function Navbar() {
       <div className="navItems">
         <a href="/home">Home</a>
         <a href="/about">About</a>
+        <a href="/user">Contact</a>
         <a href="/form">Form</a>
         <a href="/user">User</a>
       </div>

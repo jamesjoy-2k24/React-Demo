@@ -3,23 +3,31 @@ import "./user.css";
 export default function User() {
   return (
     <div className="user">
-      <h1>Login</h1>
+      <h1>Register</h1>
       <form>
         <div className="fill-field">
           <label>
-            Username
+            First Name
             <input type="text" id="username" placeholder="Enter Username" />
+          </label>
+          <label>
+            Email
+            <input type="email" id="email" placeholder="Enter Email" />
           </label>
           <label>
             Password
             <input type="password" id="password" placeholder="Enter Password" />
           </label>
+          <label>
+            Confirm Password
+            <input
+              type="password"
+              id="c-password"
+              placeholder="Confirm Password"
+            />
+          </label>
         </div>
-        <div className="forget">
-          <a href="/home">Forget Password</a>
-          <a href="/home">Register</a>
-        </div>
-        <button type="submit">Login</button>
+        <button type="submit">Register</button>
       </form>
     </div>
   );
