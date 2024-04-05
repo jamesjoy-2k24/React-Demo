@@ -7,11 +7,10 @@ export default function Navbar() {
         <h1>Joy</h1>
       </div>
       <div className="navItems">
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/user">Contact</a>
-        <a href="/form">Form</a>
-        <a href="/user">User</a>
+        <a href="/">Home</a>
+        <a href="/Note">Note</a>
+        <a href="/About">About</a>
+        <a href="/Contact">Contact</a>
       </div>
     </div>
   );
