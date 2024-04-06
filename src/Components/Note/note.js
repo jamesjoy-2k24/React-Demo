@@ -1,6 +1,6 @@
-import "./form.css";
+import "./note.css";
 
-export default function Form() {
+export default function Note() {
   return (
     <div className="form">
       <h1>To-Do List</h1>
