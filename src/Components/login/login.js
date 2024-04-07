@@ -1,3 +1,6 @@
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import "./login.css";
 import { Link } from "react-router-dom";
 import Photo from "../Assets/darknet.jpg";
@@ -10,7 +13,7 @@ export default function Login() {
           <img src={Photo} alt="darknet" />
         </div>
         <div className="right">
-      <h1>Login</h1>
+          <h1>Login</h1>
           <form>
             <label>
               Email
@@ -28,8 +31,13 @@ export default function Login() {
               <Link to="/Register">Register</Link>
               <Link to="/Forget">Forget Password</Link>
             </div>
-            <button type="submit">Use Google Account to login</button>
-            <button type="submit">Login</button>
+            <div className="btn">
+              <button type="submit">
+                <FontAwesomeIcon icon={faGoogle} />
+                <span>Login with Google</span>
+              </button>
+              <button type="submit">Login</button>
+            </div>
           </form>
         </div>
       </div>

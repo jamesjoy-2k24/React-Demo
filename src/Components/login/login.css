@@ -42,3 +42,10 @@ form button {
   margin-bottom: 0.5rem;
   margin-top: 1rem;
 }
+form button span {
+  margin-left: 1rem;
+}
+form button:hover {
+  background-color: blue;
+  color: white;
+}
