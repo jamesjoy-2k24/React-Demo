@@ -1,18 +1,27 @@
-.note {
+td {
+  padding: 5px;
   color: white;
+  text-align: center;
+  border: 1px solid white;
+  width: 100%;
 }
-.field {
+tr {
+  color: white;
   display: flex;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  color: white;
+  border: 1px solid white;
+  justify-content: space-around;
+  align-items: center;
 }
-.field input {
-  color: black;
-  font-weight: 500;
-  font-size: 18px;
-  border: none;
-  background: white;
-  box-shadow: 5px 8px 20px 0 rgba(1, 255, 242, 0.3);
-  border-radius: 5px;
+th {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 6rem;
+  border-radius: 10px;
+  background-color: black;
+  box-shadow: 5px 8px 15px 0 rgba(1, 255, 242, 0.2);
 }
